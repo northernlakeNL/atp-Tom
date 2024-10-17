@@ -20,7 +20,7 @@ Mocht dit niet erin zitten kan het zijn dat er fouten worden gemaakt en deze nie
 
 ### caching decorator
 De caching decorator vind ik handig om tijd te besparen voor de complete berekening van de meting, als de waarde al bekend is kan deze gelijk worden gestuurd. Mocht er dus een grote functie komen waarbij veel tijd in beslag wordt genomen voor de berekening, kan met de cache worden gekeken of dezelfde waarde niet al een keer is gemeten.
-Als er niet gecached wordt, kan het zijn dat de functie er langer over doet dan nodig is als de waarden maar weinig veranderen. Dit zou onnodig tijd opnemen voor tijdens het testen of uitvoeren van de functie
+Als er niet gecached wordt, kan het zijn dat de functie er langer over doet dan nodig is als de waarden maar weinig veranderen. Dit zou onnodig tijd opnemen voor tijdens het testen of uitvoeren van de functie.
 
 ### Measurement Converting decorator
 De measurement converting decorator is handig voor als het project ook gebruikt gaat worden door mensen die niet bekend zijn met de gebruikte eenheid of als er voor andere redenen met een andere eenheid moet worden gerekend.
