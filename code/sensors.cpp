@@ -14,7 +14,7 @@ SCD4X::SCD4X(){}
  */
 double SCD4X::readHumidity(){
     // dummy waarden voor de functie
-    return 50.3;
+    return 50;
 }
 /**
  * @brief Constructor van een nieuw VEML6030::VEML6030 object
@@ -29,7 +29,7 @@ VEML6030::VEML6030(){}
  * 
  * @return double 
  */
-double VEML6030::readLightIntensity(){
+double VEML6030::readBrightness(){
     // dummy waarden voor de functie
-    return 1000.4;
+    return 400;
 }

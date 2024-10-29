@@ -42,7 +42,7 @@ class VEML6030{
      * 
      * @return double (een dummy reading)
      */
-    double readLightIntensity();
+    double readBrightness();
 };
 
 #endif // SENSORS_HPP

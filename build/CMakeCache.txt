@@ -20,9 +20,6 @@ BUILD_TESTING:BOOL=ON
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lib.exe
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
-
 //Semicolon separated list of supported configuration types, only
 // supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
 // else will be ignored.
@@ -78,9 +75,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
-
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/pkgRedirects
@@ -245,7 +239,7 @@ PYBIND11_PYTHONLIBS_OVERWRITE:BOOL=ON
 PYBIND11_PYTHON_VERSION:STRING=
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=C:/Users/tomno/AppData/Local/Programs/Python/Python37/python.exe
+PYTHON_EXECUTABLE:FILEPATH=C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/.venv/Scripts/python.exe
 
 //Name of the computer/site where compile is being run
 SITE:STRING=LapTom
@@ -406,9 +400,9 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding PYTHON
-FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python37/python.exe3.7
+FIND_PACKAGE_MESSAGE_DETAILS_PYTHON:INTERNAL=C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/.venv/Scripts/python.exe3.8.10
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/tomno/AppData/Local/Programs/Python/Python37/python.exe][v3.7(3.7)]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/.venv/Scripts/python.exe][v3.8.10(3.7)]
 //ADVANCED property for variable: GITCOMMAND
 GITCOMMAND-ADVANCED:INTERNAL=1
 //Test HAS_MSVC_GL_LTCG
@@ -421,20 +415,20 @@ MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
 MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
-PYTHON_INCLUDE_DIRS:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python37/include
+PYTHON_INCLUDE_DIRS:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python38/include
 PYTHON_IS_DEBUG:INTERNAL=0
-PYTHON_LIBRARIES:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python37/libs/python37.lib
+PYTHON_LIBRARIES:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python38/libs/python38.lib
 PYTHON_MODULE_DEBUG_POSTFIX:INTERNAL=
-PYTHON_MODULE_EXTENSION:INTERNAL=.cp37-win_amd64.pyd
+PYTHON_MODULE_EXTENSION:INTERNAL=.cp38-win_amd64.pyd
 PYTHON_MODULE_PREFIX:INTERNAL=
-PYTHON_VERSION:INTERNAL=3.7.0
+PYTHON_VERSION:INTERNAL=3.8.10
 PYTHON_VERSION_MAJOR:INTERNAL=3
-PYTHON_VERSION_MINOR:INTERNAL=7
+PYTHON_VERSION_MINOR:INTERNAL=8
 Python_ADDITIONAL_VERSIONS:INTERNAL=3.12;3.11;3.10;3.9;3.8;3.7
 //ADVANCED property for variable: SITE
 SITE-ADVANCED:INTERNAL=1
 _PYBIND11_CROSSCOMPILING:INTERNAL=OFF
 _Python:INTERNAL=PYTHON
 //Directories where pybind11 and possibly Python headers are located
-pybind11_INCLUDE_DIRS:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/include;C:/Users/tomno/AppData/Local/Programs/Python/Python37/include
+pybind11_INCLUDE_DIRS:INTERNAL=C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/include;C:/Users/tomno/AppData/Local/Programs/Python/Python38/include
 

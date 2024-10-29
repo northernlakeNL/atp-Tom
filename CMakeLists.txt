@@ -15,7 +15,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(${CMAKE_SOURCE_DIR}/code)
 
 # Add the library (Python extension module) that will be built
-add_library(sensor_bindings MODULE code/bindings.cpp code/sensors.cpp code/actuator.cpp)
+add_library(sensor_bindings MODULE code/sensor_bindings.cpp code/actuator_bindings.cpp code/sensors.cpp code/actuator.cpp)
 
 # Link PyBind11 with the target
 target_link_libraries(sensor_bindings PRIVATE pybind11::module)
