@@ -1,4 +1,14 @@
 #include "sensors.hpp"
+
+i2cMock::i2cMock(uint8_t deviceAddress):
+    deviceAddress(deviceAddress),
+    readIndex(0){
+        dataSimulation = {0x22, 0xB8};
+    }
+
+
+
+
 /**
  * @brief Constructor van een nieuw SCD4X::SCD4X object
  * 

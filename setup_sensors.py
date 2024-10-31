@@ -1,8 +1,5 @@
 from setuptools import setup, Extension
 import sys
-
-# Optional: Add the site-packages path if needed
-sys.path.append(r'c:\users\tomno\appdata\local\programs\python\python38\lib\site-packages')
 import pybind11
 
 ext_modules1 = [
