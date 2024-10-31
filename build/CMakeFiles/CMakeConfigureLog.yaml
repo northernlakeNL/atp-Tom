@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 29-10-2024 19:31:26.
+      Build started 31-10-2024 17:59:31.
       
       Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.52
+      Time Elapsed 00:00:00.59
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 29-10-2024 19:31:27.
+      Build started 31-10-2024 17:59:32.
       
       Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.50
+      Time Elapsed 00:00:00.57
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-5a5ah3"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-5a5ah3"
+      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-37y525"
+      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-37y525"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -136,40 +136,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-5a5ah3'
+        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-37y525'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d7de5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eea67.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 29-10-2024 19:31:27.
+        Build started 31-10-2024 17:59:33.
         
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5a5ah3\\cmTC_d7de5.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37y525\\cmTC_eea67.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d7de5.dir\\Debug\\".
+          Creating directory "cmTC_eea67.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5a5ah3\\Debug\\".
-          Creating directory "cmTC_d7de5.dir\\Debug\\cmTC_d7de5.tlog\\".
+          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37y525\\Debug\\".
+          Creating directory "cmTC_eea67.dir\\Debug\\cmTC_eea67.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d7de5.dir\\Debug\\cmTC_d7de5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d7de5.dir\\Debug\\cmTC_d7de5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_eea67.dir\\Debug\\cmTC_eea67.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_eea67.dir\\Debug\\cmTC_eea67.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7de5.dir\\Debug\\\\" /Fd"cmTC_d7de5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eea67.dir\\Debug\\\\" /Fd"cmTC_eea67.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7de5.dir\\Debug\\\\" /Fd"cmTC_d7de5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eea67.dir\\Debug\\\\" /Fd"cmTC_eea67.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5a5ah3\\Debug\\cmTC_d7de5.exe" /INCREMENTAL /ILK:"cmTC_d7de5.dir\\Debug\\cmTC_d7de5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-5a5ah3/Debug/cmTC_d7de5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-5a5ah3/Debug/cmTC_d7de5.lib" /MACHINE:X64  /machine:x64 cmTC_d7de5.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_d7de5.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5a5ah3\\Debug\\cmTC_d7de5.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37y525\\Debug\\cmTC_eea67.exe" /INCREMENTAL /ILK:"cmTC_eea67.dir\\Debug\\cmTC_eea67.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-37y525/Debug/cmTC_eea67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-37y525/Debug/cmTC_eea67.lib" /MACHINE:X64  /machine:x64 cmTC_eea67.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_eea67.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37y525\\Debug\\cmTC_eea67.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d7de5.dir\\Debug\\cmTC_d7de5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d7de5.dir\\Debug\\cmTC_d7de5.tlog\\cmTC_d7de5.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5a5ah3\\cmTC_d7de5.vcxproj" (default targets).
+          Deleting file "cmTC_eea67.dir\\Debug\\cmTC_eea67.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eea67.dir\\Debug\\cmTC_eea67.tlog\\cmTC_eea67.lastbuildstate".
+        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-37y525\\cmTC_eea67.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.55
         
       exitCode: 0
   -
@@ -209,8 +209,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-vxrl4g"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-vxrl4g"
+      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-usk35z"
+      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-usk35z"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -219,40 +219,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-vxrl4g'
+        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-usk35z'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ed88.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26ddd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 29-10-2024 19:31:28.
+        Build started 31-10-2024 17:59:34.
         
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vxrl4g\\cmTC_4ed88.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-usk35z\\cmTC_26ddd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4ed88.dir\\Debug\\".
+          Creating directory "cmTC_26ddd.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vxrl4g\\Debug\\".
-          Creating directory "cmTC_4ed88.dir\\Debug\\cmTC_4ed88.tlog\\".
+          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-usk35z\\Debug\\".
+          Creating directory "cmTC_26ddd.dir\\Debug\\cmTC_26ddd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4ed88.dir\\Debug\\cmTC_4ed88.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4ed88.dir\\Debug\\cmTC_4ed88.tlog\\unsuccessfulbuild".
+          Creating "cmTC_26ddd.dir\\Debug\\cmTC_26ddd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_26ddd.dir\\Debug\\cmTC_26ddd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ed88.dir\\Debug\\\\" /Fd"cmTC_4ed88.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26ddd.dir\\Debug\\\\" /Fd"cmTC_26ddd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ed88.dir\\Debug\\\\" /Fd"cmTC_4ed88.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_26ddd.dir\\Debug\\\\" /Fd"cmTC_26ddd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vxrl4g\\Debug\\cmTC_4ed88.exe" /INCREMENTAL /ILK:"cmTC_4ed88.dir\\Debug\\cmTC_4ed88.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-vxrl4g/Debug/cmTC_4ed88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-vxrl4g/Debug/cmTC_4ed88.lib" /MACHINE:X64  /machine:x64 cmTC_4ed88.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4ed88.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vxrl4g\\Debug\\cmTC_4ed88.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-usk35z\\Debug\\cmTC_26ddd.exe" /INCREMENTAL /ILK:"cmTC_26ddd.dir\\Debug\\cmTC_26ddd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-usk35z/Debug/cmTC_26ddd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-usk35z/Debug/cmTC_26ddd.lib" /MACHINE:X64  /machine:x64 cmTC_26ddd.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_26ddd.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-usk35z\\Debug\\cmTC_26ddd.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4ed88.dir\\Debug\\cmTC_4ed88.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4ed88.dir\\Debug\\cmTC_4ed88.tlog\\cmTC_4ed88.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vxrl4g\\cmTC_4ed88.vcxproj" (default targets).
+          Deleting file "cmTC_26ddd.dir\\Debug\\cmTC_26ddd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_26ddd.dir\\Debug\\cmTC_26ddd.tlog\\cmTC_26ddd.lastbuildstate".
+        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-usk35z\\cmTC_26ddd.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.53
         
       exitCode: 0
   -
@@ -297,8 +297,8 @@ events:
     checks:
       - "Performing Test HAS_MSVC_GL_LTCG"
     directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6tztt1"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6tztt1"
+      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-xw7r37"
+      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-xw7r37"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -307,1110 +307,48 @@ events:
       variable: "HAS_MSVC_GL_LTCG"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6tztt1'
+        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-xw7r37'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2ddef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c907.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 29-10-2024 19:31:29.
+        Build started 31-10-2024 17:59:35.
         
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\cmTC_2ddef.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\cmTC_5c907.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_2ddef.dir\\Debug\\".
+          Creating directory "cmTC_5c907.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\Debug\\".
-          Creating directory "cmTC_2ddef.dir\\Debug\\cmTC_2ddef.tlog\\".
+          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\Debug\\".
+          Creating directory "cmTC_5c907.dir\\Debug\\cmTC_5c907.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2ddef.dir\\Debug\\cmTC_2ddef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2ddef.dir\\Debug\\cmTC_2ddef.tlog\\unsuccessfulbuild".
+          Creating "cmTC_5c907.dir\\Debug\\cmTC_5c907.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_5c907.dir\\Debug\\cmTC_5c907.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ddef.dir\\Debug\\\\" /Fd"cmTC_2ddef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5c907.dir\\Debug\\\\" /Fd"cmTC_5c907.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2ddef.dir\\Debug\\\\" /Fd"cmTC_2ddef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5c907.dir\\Debug\\\\" /Fd"cmTC_5c907.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\src.cxx"
           src.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\Debug\\cmTC_2ddef.exe" /INCREMENTAL /ILK:"cmTC_2ddef.dir\\Debug\\cmTC_2ddef.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6tztt1/Debug/cmTC_2ddef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6tztt1/Debug/cmTC_2ddef.lib" /MACHINE:X64  /machine:x64 cmTC_2ddef.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\cmTC_2ddef.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\Debug\\cmTC_5c907.exe" /INCREMENTAL /ILK:"cmTC_5c907.dir\\Debug\\cmTC_5c907.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-xw7r37/Debug/cmTC_5c907.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-xw7r37/Debug/cmTC_5c907.lib" /MACHINE:X64  /machine:x64 cmTC_5c907.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\cmTC_5c907.vcxproj]
           Generating code
           Finished generating code
-          cmTC_2ddef.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\Debug\\cmTC_2ddef.exe
+          cmTC_5c907.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\Debug\\cmTC_5c907.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2ddef.dir\\Debug\\cmTC_2ddef.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2ddef.dir\\Debug\\cmTC_2ddef.tlog\\cmTC_2ddef.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\cmTC_2ddef.vcxproj" (default targets).
+          Deleting file "cmTC_5c907.dir\\Debug\\cmTC_5c907.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5c907.dir\\Debug\\cmTC_5c907.tlog\\cmTC_5c907.lastbuildstate".
+        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\cmTC_5c907.vcxproj" (default targets).
         
         Build succeeded.
         
-        "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\cmTC_2ddef.vcxproj" (default target) (1) ->
+        "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\cmTC_5c907.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6tztt1\\cmTC_2ddef.vcxproj]
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xw7r37\\cmTC_5c907.vcxproj]
         
             1 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.57
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      The system is: Windows - 10.0.22631 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 29-10-2024 19:50:40.
-      
-      Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:02.79
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 29-10-2024 19:50:43.
-      
-      Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.91
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6h5uyh"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6h5uyh"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6h5uyh'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_235d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 29-10-2024 19:50:44.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6h5uyh\\cmTC_235d2.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_235d2.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6h5uyh\\Debug\\".
-          Creating directory "cmTC_235d2.dir\\Debug\\cmTC_235d2.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_235d2.dir\\Debug\\cmTC_235d2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_235d2.dir\\Debug\\cmTC_235d2.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_235d2.dir\\Debug\\\\" /Fd"cmTC_235d2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_235d2.dir\\Debug\\\\" /Fd"cmTC_235d2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6h5uyh\\Debug\\cmTC_235d2.exe" /INCREMENTAL /ILK:"cmTC_235d2.dir\\Debug\\cmTC_235d2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6h5uyh/Debug/cmTC_235d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-6h5uyh/Debug/cmTC_235d2.lib" /MACHINE:X64  /machine:x64 cmTC_235d2.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_235d2.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6h5uyh\\Debug\\cmTC_235d2.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_235d2.dir\\Debug\\cmTC_235d2.tlog\\unsuccessfulbuild".
-          Touching "cmTC_235d2.dir\\Debug\\cmTC_235d2.tlog\\cmTC_235d2.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6h5uyh\\cmTC_235d2.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.70
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-gqacor"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-gqacor"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-gqacor'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e6ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 29-10-2024 19:50:45.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqacor\\cmTC_1e6ef.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_1e6ef.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqacor\\Debug\\".
-          Creating directory "cmTC_1e6ef.dir\\Debug\\cmTC_1e6ef.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_1e6ef.dir\\Debug\\cmTC_1e6ef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1e6ef.dir\\Debug\\cmTC_1e6ef.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1e6ef.dir\\Debug\\\\" /Fd"cmTC_1e6ef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1e6ef.dir\\Debug\\\\" /Fd"cmTC_1e6ef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqacor\\Debug\\cmTC_1e6ef.exe" /INCREMENTAL /ILK:"cmTC_1e6ef.dir\\Debug\\cmTC_1e6ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-gqacor/Debug/cmTC_1e6ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-gqacor/Debug/cmTC_1e6ef.lib" /MACHINE:X64  /machine:x64 cmTC_1e6ef.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1e6ef.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqacor\\Debug\\cmTC_1e6ef.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_1e6ef.dir\\Debug\\cmTC_1e6ef.tlog\\unsuccessfulbuild".
-          Touching "cmTC_1e6ef.dir\\Debug\\cmTC_1e6ef.tlog\\cmTC_1e6ef.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gqacor\\cmTC_1e6ef.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.64
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:390 (_pybind11_return_if_cxx_and_linker_flags_work)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    checks:
-      - "Performing Test HAS_MSVC_GL_LTCG"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-hg25b1"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-hg25b1"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: ""
-    buildResult:
-      variable: "HAS_MSVC_GL_LTCG"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-hg25b1'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05429.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 29-10-2024 19:50:47.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\cmTC_05429.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_05429.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\Debug\\".
-          Creating directory "cmTC_05429.dir\\Debug\\cmTC_05429.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_05429.dir\\Debug\\cmTC_05429.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_05429.dir\\Debug\\cmTC_05429.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_05429.dir\\Debug\\\\" /Fd"cmTC_05429.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_05429.dir\\Debug\\\\" /Fd"cmTC_05429.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\src.cxx"
-          src.cxx
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\Debug\\cmTC_05429.exe" /INCREMENTAL /ILK:"cmTC_05429.dir\\Debug\\cmTC_05429.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-hg25b1/Debug/cmTC_05429.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-hg25b1/Debug/cmTC_05429.lib" /MACHINE:X64  /machine:x64 cmTC_05429.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\cmTC_05429.vcxproj]
-          Generating code
-          Finished generating code
-          cmTC_05429.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\Debug\\cmTC_05429.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_05429.dir\\Debug\\cmTC_05429.tlog\\unsuccessfulbuild".
-          Touching "cmTC_05429.dir\\Debug\\cmTC_05429.tlog\\cmTC_05429.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\cmTC_05429.vcxproj" (default targets).
-        
-        Build succeeded.
-        
-        "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\cmTC_05429.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hg25b1\\cmTC_05429.vcxproj]
-        
-            1 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.67
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      The system is: Windows - 10.0.22631 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 30-10-2024 12:26:13.
-      
-      Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:01.70
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 30-10-2024 12:26:15.
-      
-      Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:00.98
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-pl0rdz"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-pl0rdz"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-pl0rdz'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18fcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 30-10-2024 12:26:17.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pl0rdz\\cmTC_18fcc.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_18fcc.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pl0rdz\\Debug\\".
-          Creating directory "cmTC_18fcc.dir\\Debug\\cmTC_18fcc.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_18fcc.dir\\Debug\\cmTC_18fcc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_18fcc.dir\\Debug\\cmTC_18fcc.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18fcc.dir\\Debug\\\\" /Fd"cmTC_18fcc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18fcc.dir\\Debug\\\\" /Fd"cmTC_18fcc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pl0rdz\\Debug\\cmTC_18fcc.exe" /INCREMENTAL /ILK:"cmTC_18fcc.dir\\Debug\\cmTC_18fcc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-pl0rdz/Debug/cmTC_18fcc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-pl0rdz/Debug/cmTC_18fcc.lib" /MACHINE:X64  /machine:x64 cmTC_18fcc.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_18fcc.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pl0rdz\\Debug\\cmTC_18fcc.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_18fcc.dir\\Debug\\cmTC_18fcc.tlog\\unsuccessfulbuild".
-          Touching "cmTC_18fcc.dir\\Debug\\cmTC_18fcc.tlog\\cmTC_18fcc.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pl0rdz\\cmTC_18fcc.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:02.48
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-oofvuc"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-oofvuc"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-oofvuc'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7fc91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 30-10-2024 12:26:21.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oofvuc\\cmTC_7fc91.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_7fc91.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oofvuc\\Debug\\".
-          Creating directory "cmTC_7fc91.dir\\Debug\\cmTC_7fc91.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_7fc91.dir\\Debug\\cmTC_7fc91.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_7fc91.dir\\Debug\\cmTC_7fc91.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7fc91.dir\\Debug\\\\" /Fd"cmTC_7fc91.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7fc91.dir\\Debug\\\\" /Fd"cmTC_7fc91.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oofvuc\\Debug\\cmTC_7fc91.exe" /INCREMENTAL /ILK:"cmTC_7fc91.dir\\Debug\\cmTC_7fc91.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-oofvuc/Debug/cmTC_7fc91.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-oofvuc/Debug/cmTC_7fc91.lib" /MACHINE:X64  /machine:x64 cmTC_7fc91.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_7fc91.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oofvuc\\Debug\\cmTC_7fc91.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_7fc91.dir\\Debug\\cmTC_7fc91.tlog\\unsuccessfulbuild".
-          Touching "cmTC_7fc91.dir\\Debug\\cmTC_7fc91.tlog\\cmTC_7fc91.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oofvuc\\cmTC_7fc91.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.91
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:390 (_pybind11_return_if_cxx_and_linker_flags_work)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    checks:
-      - "Performing Test HAS_MSVC_GL_LTCG"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-x0tmas"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-x0tmas"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: ""
-    buildResult:
-      variable: "HAS_MSVC_GL_LTCG"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-x0tmas'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8a5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 30-10-2024 12:26:23.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\cmTC_e8a5b.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_e8a5b.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\Debug\\".
-          Creating directory "cmTC_e8a5b.dir\\Debug\\cmTC_e8a5b.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_e8a5b.dir\\Debug\\cmTC_e8a5b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e8a5b.dir\\Debug\\cmTC_e8a5b.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8a5b.dir\\Debug\\\\" /Fd"cmTC_e8a5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e8a5b.dir\\Debug\\\\" /Fd"cmTC_e8a5b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\src.cxx"
-          src.cxx
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\Debug\\cmTC_e8a5b.exe" /INCREMENTAL /ILK:"cmTC_e8a5b.dir\\Debug\\cmTC_e8a5b.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-x0tmas/Debug/cmTC_e8a5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-x0tmas/Debug/cmTC_e8a5b.lib" /MACHINE:X64  /machine:x64 cmTC_e8a5b.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\cmTC_e8a5b.vcxproj]
-          Generating code
-          Finished generating code
-          cmTC_e8a5b.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\Debug\\cmTC_e8a5b.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_e8a5b.dir\\Debug\\cmTC_e8a5b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e8a5b.dir\\Debug\\cmTC_e8a5b.tlog\\cmTC_e8a5b.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\cmTC_e8a5b.vcxproj" (default targets).
-        
-        Build succeeded.
-        
-        "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\cmTC_e8a5b.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0tmas\\cmTC_e8a5b.vcxproj]
-        
-            1 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.96
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      The system is: Windows - 10.0.22631 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 31-10-2024 12:53:56.
-      
-      Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdC.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:01.89
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/3.30.4/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-      Build started 31-10-2024 12:53:59.
-      
-      Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
-      PrepareForBuild:
-        Creating directory "Debug\\".
-        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-        Creating directory "Debug\\CompilerIdCXX.tlog\\".
-      InitializeBuildStatus:
-        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
-        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\3.30.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
-      
-      Build succeeded.
-          0 Warning(s)
-          0 Error(s)
-      
-      Time Elapsed 00:00:01.26
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/3.30.4/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-m7c3mf"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-m7c3mf"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-m7c3mf'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f86a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 31-10-2024 12:54:01.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7c3mf\\cmTC_5f86a.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_5f86a.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7c3mf\\Debug\\".
-          Creating directory "cmTC_5f86a.dir\\Debug\\cmTC_5f86a.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_5f86a.dir\\Debug\\cmTC_5f86a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_5f86a.dir\\Debug\\cmTC_5f86a.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f86a.dir\\Debug\\\\" /Fd"cmTC_5f86a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f86a.dir\\Debug\\\\" /Fd"cmTC_5f86a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
-          CMakeCCompilerABI.c
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7c3mf\\Debug\\cmTC_5f86a.exe" /INCREMENTAL /ILK:"cmTC_5f86a.dir\\Debug\\cmTC_5f86a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-m7c3mf/Debug/cmTC_5f86a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-m7c3mf/Debug/cmTC_5f86a.lib" /MACHINE:X64  /machine:x64 cmTC_5f86a.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_5f86a.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7c3mf\\Debug\\cmTC_5f86a.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_5f86a.dir\\Debug\\cmTC_5f86a.tlog\\unsuccessfulbuild".
-          Touching "cmTC_5f86a.dir\\Debug\\cmTC_5f86a.tlog\\cmTC_5f86a.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m7c3mf\\cmTC_5f86a.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:00.93
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-mlrfzf"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-mlrfzf"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-mlrfzf'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6600f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 31-10-2024 12:54:03.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlrfzf\\cmTC_6600f.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_6600f.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlrfzf\\Debug\\".
-          Creating directory "cmTC_6600f.dir\\Debug\\cmTC_6600f.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_6600f.dir\\Debug\\cmTC_6600f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6600f.dir\\Debug\\cmTC_6600f.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6600f.dir\\Debug\\\\" /Fd"cmTC_6600f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6600f.dir\\Debug\\\\" /Fd"cmTC_6600f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
-          CMakeCXXCompilerABI.cpp
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlrfzf\\Debug\\cmTC_6600f.exe" /INCREMENTAL /ILK:"cmTC_6600f.dir\\Debug\\cmTC_6600f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-mlrfzf/Debug/cmTC_6600f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-mlrfzf/Debug/cmTC_6600f.lib" /MACHINE:X64  /machine:x64 cmTC_6600f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6600f.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlrfzf\\Debug\\cmTC_6600f.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_6600f.dir\\Debug\\cmTC_6600f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_6600f.dir\\Debug\\cmTC_6600f.tlog\\cmTC_6600f.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlrfzf\\cmTC_6600f.vcxproj" (default targets).
-        
-        Build succeeded.
-            0 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:01.93
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.41.34120.0
-      Copyright (C) Microsoft Corporation.  All rights reserved.
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:323 (check_cxx_compiler_flag)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:390 (_pybind11_return_if_cxx_and_linker_flags_work)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:435 (_pybind11_generate_lto)"
-      - "C:/Users/tomno/AppData/Local/Programs/Python/Python37/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
-      - "CMakeLists.txt:8 (find_package)"
-    checks:
-      - "Performing Test HAS_MSVC_GL_LTCG"
-    directories:
-      source: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-49bhn4"
-      binary: "C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-49bhn4"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: ""
-    buildResult:
-      variable: "HAS_MSVC_GL_LTCG"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-49bhn4'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_44733.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
-        Build started 31-10-2024 12:54:06.
-        
-        Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\cmTC_44733.vcxproj" on node 1 (default targets).
-        PrepareForBuild:
-          Creating directory "cmTC_44733.dir\\Debug\\".
-          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\Debug\\".
-          Creating directory "cmTC_44733.dir\\Debug\\cmTC_44733.tlog\\".
-        InitializeBuildStatus:
-          Creating "cmTC_44733.dir\\Debug\\cmTC_44733.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_44733.dir\\Debug\\cmTC_44733.tlog\\unsuccessfulbuild".
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_44733.dir\\Debug\\\\" /Fd"cmTC_44733.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\src.cxx"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
-          Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_44733.dir\\Debug\\\\" /Fd"cmTC_44733.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\src.cxx"
-          src.cxx
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\Debug\\cmTC_44733.exe" /INCREMENTAL /ILK:"cmTC_44733.dir\\Debug\\cmTC_44733.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-49bhn4/Debug/cmTC_44733.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tomno/Documents/inno/atp/atp-code/atp-Tom/build/CMakeFiles/CMakeScratch/TryCompile-49bhn4/Debug/cmTC_44733.lib" /MACHINE:X64  /machine:x64 cmTC_44733.dir\\Debug\\src.obj
-        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\cmTC_44733.vcxproj]
-          Generating code
-          Finished generating code
-          cmTC_44733.vcxproj -> C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\Debug\\cmTC_44733.exe
-        FinalizeBuildStatus:
-          Deleting file "cmTC_44733.dir\\Debug\\cmTC_44733.tlog\\unsuccessfulbuild".
-          Touching "cmTC_44733.dir\\Debug\\cmTC_44733.tlog\\cmTC_44733.lastbuildstate".
-        Done Building Project "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\cmTC_44733.vcxproj" (default targets).
-        
-        Build succeeded.
-        
-        "C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\cmTC_44733.vcxproj" (default target) (1) ->
-        (Link target) -> 
-          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\tomno\\Documents\\inno\\atp\\atp-code\\atp-Tom\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49bhn4\\cmTC_44733.vcxproj]
-        
-            1 Warning(s)
-            0 Error(s)
-        
-        Time Elapsed 00:00:01.30
+        Time Elapsed 00:00:00.61
         
       exitCode: 0
 ...

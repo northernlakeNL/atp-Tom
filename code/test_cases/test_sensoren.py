@@ -15,5 +15,11 @@ class TestSensoren(unittest.TestCase):
         mock_veml6030.readBrightness.return_value = 400
         self.assertEqual(read_VEML6030(), 400)
 
+    @patch('decorators.sensor_bindings.i2c')
+    def test_i2c_mock(self, mock_i2c):
+        mock_i2c.read.return_value
+        mock_i2c.read.side_effect
+
+
 if __name__ == '__main__':
     unittest.main()

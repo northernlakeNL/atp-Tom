@@ -1,0 +1,5 @@
+/.venv
+/build
+/extern/*
+actuator_bindings.*
+sensor_bindings.*

@@ -1,4 +1,5 @@
 import time
+from functools import wraps
 import sensor_bindings
 
 def MeasurementConverter(func):
@@ -7,6 +8,7 @@ def MeasurementConverter(func):
     :param func: De functie die een Celsius-waarde moet omzetten.
     :return: een gewrapte functie met een omgezette waarden van Celsius in Fahrenheit.
     """
+    @wraps(func)
     def MC_wrapper(*args, **kwargs):
         """
         Een wrapper voor het omzetten van een Celsius-waarde in Fahrenheit.
@@ -30,6 +32,7 @@ def caching(func):
     :return: een gewrapte functie met de caching.
     """
     cache = {}
+    @wraps(func)
     def cache_wrapper(*args):
         """
         Een wrapper voor het cachen van de resultaten.
@@ -56,6 +59,7 @@ def logging(func):
     :param func: De functie die gelogd moet worden.
     :return: een gewrapte functie met de log.
     """
+    @wraps(func)
     def log_wrapper(*args, **kwargs):
         """
         Een wrapper voor de loggingsfunctie.
@@ -80,6 +84,7 @@ def timing(func):
     :param func: De functie die gemeten moet worden.
     :return: een gewrapte functie met de timing.
     """
+    @wraps(func)
     def time_wrapper(*args, **kwargs):
         """
         Een wrapper voor het meten van de tijd.

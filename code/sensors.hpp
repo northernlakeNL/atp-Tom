@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <cstdint>
 
 class i2cMock{
     private:
@@ -12,12 +13,8 @@ class i2cMock{
 
     public:
         i2cMock(uint8_t deviceAddress);
-        void begin();
-        void TransmissionStart(uint8_t deviceAddress);
-        void TransmissionStop();
-        void write(uint8_t data);
-        uint8_t request(uint8_t deviceAddress, uint8_t quantity);
-        int read();
+        void write(uint8_t reg, uint8_t value);
+        uint8_t read(uint8_t reg);
 };
 
 /**
