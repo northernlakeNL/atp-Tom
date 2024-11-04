@@ -26,7 +26,7 @@ class i2cMock{
 class SCD4X{
     private:
         i2cMock i2c;
-
+        double simulatedHumidity;
     public:
     /**
      * @brief Constructor voor een nieuw SCD4X object
@@ -40,6 +40,7 @@ class SCD4X{
      * @return double  (een dummy reading)
      */
     double readHumidity();
+    void setSimulatedHumidity(double value);
 };
 
 /**
@@ -51,6 +52,7 @@ class SCD4X{
 class VEML6030{
     private:
         i2cMock i2c;
+        double simulatedBrightness;
     public:
     /**
      * @brief Constructor voor een nieuw VEML6030 object.
@@ -64,6 +66,8 @@ class VEML6030{
      * @return double (een dummy reading)
      */
     double readBrightness();
+
+    void setSimulatedBrightness(double value);
 };
 
 #endif // SENSORS_HPP

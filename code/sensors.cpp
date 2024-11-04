@@ -36,7 +36,11 @@ SCD4X::SCD4X(uint8_t deviceAddress) :
  */
 double SCD4X::readHumidity(){
     // dummy waarden voor de functie
-    return 50;
+    return simulatedHumidity;
+}
+
+void SCD4X::setSimulatedHumidity(double value){
+    simulatedHumidity = value;
 }
 /**
  * @brief Constructor van een nieuw VEML6030::VEML6030 object
@@ -55,5 +59,9 @@ VEML6030::VEML6030(uint8_t deviceAddress):
  */
 double VEML6030::readBrightness(){
     // dummy waarden voor de functie
-    return 400;
+    return simulatedBrightness;
+}
+
+void VEML6030::setSimulatedBrightness(double value){
+    simulatedBrightness = value;
 }

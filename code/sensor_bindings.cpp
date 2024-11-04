@@ -9,7 +9,7 @@
  * Hierdoor kunnen deze sensoren gebruikt worden in python.
  */
 PYBIND11_MODULE(sensor_bindings, m){
-    pybind11::class_<i2cMock>(m, "i2c")
+    pybind11::class_<i2cMock>(m, "i2cMock")
         .def(pybind11::init<uint8_t>())
         .def("write", &i2cMock::write)
         .def("read", &i2cMock::read);
@@ -20,7 +20,8 @@ PYBIND11_MODULE(sensor_bindings, m){
      */
     pybind11::class_<SCD4X>(m, "SCD4X")
         .def(pybind11::init<uint8_t>())
-        .def("readHumidity", &SCD4X::readHumidity);
+        .def("readHumidity", &SCD4X::readHumidity)
+        .def("setSimulatedHumidity", &SCD4X::setSimulatedHumidity);
 
     /**
      * @brief klassebinding van de VEML6030 sensor
@@ -29,7 +30,8 @@ PYBIND11_MODULE(sensor_bindings, m){
      */
     pybind11::class_<VEML6030>(m, "VEML6030")
         .def(pybind11::init<uint8_t>())
-        .def("readBrightness", &VEML6030::readBrightness);
+        .def("readBrightness", &VEML6030::readBrightness)
+        .def("setSimulatedBrightness", &VEML6030::setSimulatedBrightness);
 
 }
 
