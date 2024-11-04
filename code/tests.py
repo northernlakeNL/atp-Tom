@@ -6,8 +6,8 @@ from functional import checkThreshold, controller, humidity_control, light_contr
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    filename= 'test_results.log'
+    format="%(asctime)s - %(message)s",
+    filename= 'code/test_results.log'
 )
 logger = logging.getLogger(__name__)
 
@@ -42,7 +42,7 @@ class SystemTest(unittest.TestCase):
 
         execution_time = time.time() - start_time
         self.assertLess(execution_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de hoge humidity test is: {execution_time} seconde")
+        logger.info(f"hoge humidity test - {execution_time} seconde")
 
     @mock_setup
     def test_low_humidity(self):
@@ -57,7 +57,7 @@ class SystemTest(unittest.TestCase):
 
         execution_time = time.time() - start_time
         self.assertLess(execution_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de lage humidity test is: {execution_time} seconde")
+        logger.info(f"lage humidity test - {execution_time} seconde")
     @mock_setup
     def test_light(self):
         start_time = time.time()
@@ -67,8 +67,7 @@ class SystemTest(unittest.TestCase):
     
         execution_time = time.time() - start_time
         self.assertLess(execution_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de light test is: {execution_time} seconde")
-
+        logger.info(f"licht test is - {execution_time} seconde")
 
 class UnitTest(unittest.TestCase):
     def test_threshhold(self):
@@ -82,7 +81,7 @@ class UnitTest(unittest.TestCase):
 
         exec_time = time.time() - start_time
         self.assertLess(exec_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de Threshold test is: {exec_time} seconde")
+        logger.info(f"Threshold test - {exec_time} seconde")
 
 class IntegrationTest(unittest.TestCase):
     @mock_setup
@@ -103,7 +102,7 @@ class IntegrationTest(unittest.TestCase):
 
         execution_time = time.time() - start_time
         self.assertLess(execution_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de humidity integration test van de fan is: {execution_time} seconde")
+        logger.info(f"Humidity integration test (Fan) - {execution_time} seconde")
 
     @mock_setup
     def test_humi_integration_humidifier(self):
@@ -122,7 +121,7 @@ class IntegrationTest(unittest.TestCase):
         self.mock_humidifier.turnHumidifierOn.assert_called()
         execution_time = time.time() - start_time
         self.assertLess(execution_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de humidity integration test van de humidifier is: {execution_time} seconde")
+        logger.info(f"Humidity integration test (humidifier) - {execution_time} seconde")
 
 
     @mock_setup
@@ -143,7 +142,7 @@ class IntegrationTest(unittest.TestCase):
 
         execution_time = time.time() - start_time
         self.assertLess(execution_time, 10, "Execution time is langer dan 10 seconde")
-        logger.info(f"Execution time van de light integration test is: {execution_time} seconde")
+        logger.info(f"Light integration test - {execution_time} seconde")
 
 
 def gen_report():
@@ -162,12 +161,21 @@ def gen_report():
             t.write('- System test: Het testen van het gedrag van het systeem.\n')
             t.write('- Integration test: Het testen van de interactie tussen sensoren en acutatoren.\n')
 
-            t.write('##Test resultaten\n')
+            t.write('## verwachtingen\n')
+            t.write('In de tests verwacht ik dat alles naar behoren werkt en ver binnen de tijdslimiet zal vallen, de code is niet al te ingewikkeld.\n')
+            t.write('Er zou zo ver ik zie geen reden zijn om er langer dan, maximaal, een paar seconde voor nodig te hebben om de code uit te voeren.\n')
+
+            t.write('## Test resultaten\n')
+            t.write('| Datum en tijd test | Test Naam | Uitvoeringstijd (seconden) |\n')
+            t.write('|--------------------|-----------|----------------------------|\n')
             log_path = os.path.join(os.path.dirname(__file__), 'test_results.log')
             with open(log_path, 'r', encoding='utf-8') as log:
-                t.write('```\n')
-                t.write(log.read())
-                t.write('```\n')
+                for line in log:
+                    parts = line.split(' - ')
+                    test_date = parts[0].strip()
+                    test_name = parts[1].strip()
+                    exec_time = parts[2].strip()
+                    t.write(f'| {test_date} | {test_name} | {exec_time} |\n')
             
             t.write('\n## Kwaliteitsimpact\n')
             t.write('1. Betrouwbaarheid: De tests zijn betrouwbaar doordat de thresholds juist zijn geverifieerd.\n')
