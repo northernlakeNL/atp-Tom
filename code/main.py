@@ -1,5 +1,5 @@
 import unittest
-import sys
+import time
 from tests import SystemTest, UnitTest, IntegrationTest, gen_report
 from sim import EnvironmentSim
 
@@ -19,8 +19,9 @@ def run_tests():
     return result.wasSuccessful()
 
 if __name__ == '__main__':
-    # uncomment voor het uitvoeren van de tests
+    # uitvoeren van de tests
     run_tests()
-    
-    # uncomment voor het uitvoeren van de simulatie
-    # EnvironmentSim().simulate()
+    # wachten voor de simulatie
+    time.sleep(10)
+    # uitvoeren van de simulatie
+    EnvironmentSim().simulate()

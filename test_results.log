@@ -19,3 +19,10 @@
 2024-11-04 18:18:20,843 - tests - INFO - Execution time van de humidity integration test van de fan is: 0.0 seconde
 2024-11-04 18:18:20,847 - tests - INFO - Execution time van de humidity integration test van de humidifier is: 0.0009872913360595703 seconde
 2024-11-04 18:18:20,850 - tests - INFO - Execution time van de light integration test is: 0.0 seconde
+2024-11-04 18:54:20,568 - tests - INFO - Execution time van de hoge humidity test is: 0.0018966197967529297 seconde
+2024-11-04 18:54:20,570 - tests - INFO - Execution time van de light test is: 0.0 seconde
+2024-11-04 18:54:20,573 - tests - INFO - Execution time van de lage humidity test is: 0.0009944438934326172 seconde
+2024-11-04 18:54:20,573 - tests - INFO - Execution time van de Threshold test is: 0.0 seconde
+2024-11-04 18:54:20,576 - tests - INFO - Execution time van de humidity integration test van de fan is: 0.0009911060333251953 seconde
+2024-11-04 18:54:20,579 - tests - INFO - Execution time van de humidity integration test van de humidifier is: 0.0010035037994384766 seconde
+2024-11-04 18:54:20,581 - tests - INFO - Execution time van de light integration test is: 0.0 seconde

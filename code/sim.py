@@ -18,24 +18,41 @@ Light = actuator_bindings.Light()
 class EnvironmentSim:
     def __init__(self):
         self.console = Console()
-        self.humidity = humidity_sensor.readHumidity()
-        self.brightness = light_sensor.readBrightness()
+        self.humidity = 60
+        self.brightness = 150
         self.limits = {
             'humidity': (25, 75),
             'brightness': (100, 1000)
         }
 
     def values_update(self):
-        new_humidity = max(self.limits['humidity'][0],
-                            min(self.limits['humidity'][1],
-                            self.humidity + random.uniform(-10, 10)
-                        ))
+        if Fan.getState():
+            new_humidity = max(self.limits['humidity'][0],
+                                min(self.limits['humidity'][1],
+                                self.humidity - random.uniform(0, 10)
+                            ))
+        else:
+            new_humidity = max(self.limits['humidity'][0],
+                                min(self.limits['humidity'][1],
+                                self.humidity + random.uniform(-5, 5)
+                            ))
+        if Humidifier.getState():
+            new_humidity = max(self.limits['humidity'][0],
+                                min(self.limits['humidity'][1],
+                                self.humidity + random.uniform(0, 10)
+                            ))
         humidity_sensor.setSimulatedHumidity(new_humidity)
         self.humidity = new_humidity
-        new_brightness = max(self.limits['brightness'][0],
-                            min(self.limits['brightness'][1],
-                            self.brightness + random.uniform(-100, 100)
-                        ))
+        if Light.getState():
+            new_brightness = max(self.limits['brightness'][0],
+                                min(self.limits['brightness'][1],
+                                self.brightness + random.uniform(0, 200)
+                            ))
+        else:
+            new_brightness = max(self.limits['brightness'][0],
+                                min(self.limits['brightness'][1],
+                                self.brightness - random.uniform(0, 50)
+                            ))
         light_sensor.setSimulatedBrightness(new_brightness)
         self.brightness = new_brightness
 

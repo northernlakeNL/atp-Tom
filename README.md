@@ -1,27 +1,38 @@
-# atp-Tom
+# ATP opdracht Tom
+Door main.py uit te voeren worden eerst de tests uitgevoerd, hierna wordt er 10 seconden gewacht om de simulatie te laten zien.
 
-Voor ATP was de opdracht om decorators te maken.
-Ik heb gekozen om de decorators te koppelen aan dummy classen voor de chips die ik wil gebruiken voor mijn eind opdracht, hierdoor kan ik de decorators ook daarvoor gebruiken.
+#### test resultaten locatie
+De test resultaten staan in het log bestand [test_results.log](code/test_results.log).
 
-## decorators uitleg
-Voor de opdracht heb ik in totaal vier decorators geschreven:
-- timing decorator
-- logging decorator
-- caching decorator
-- measurement converting decorator
+#### test verslag locatie
+Het test verslag staat in het [test_report](code/test_report.md).
 
-### timing decorator
-De timing decorator vind ik van belang voor het testen van het systeem, door een timing decorator te gebruiken kan er gekeken worden hoelang het duurt voor de functies van de sensoren een waarden terug geven. Later is deze decorator ook te gebruiken om te kijken hoe lang het systeem doet over een complete meting en het aansturen van de actuatoren zodat die tijd kan worden mee genomen voor eventuele incrementele metingen.
-Mocht je dit niet doen is het lastiger om te meten hoelang de functies doen over het uitvoeren.
+## test uitleg
+De tests die ik heb uitgevoerd zijn 
+- [Unit test](#unit-test) 
+- [Software Integratie Test](#software-integratie-test)
+- [System Test](#system-test).
 
-### logging decorator
-De loging decorator vind ik van belang om te kunnen testen of de functies correct worden uitgevoerd met de verwachtte waarden, mocht dit niet zo zijn kan er sneller actie ondernomen worden om dit te herstellen.
-Mocht dit niet erin zitten kan het zijn dat er fouten worden gemaakt en deze niet terug te vinden zijn.
+De tests worden gedaan om te controlleren of het systeem binnen een acceptabele tijd de juiste stappen zet om het systeem functioneel te laten werken.
 
-### caching decorator
-De caching decorator vind ik handig om tijd te besparen voor de complete berekening van de meting, als de waarde al bekend is kan deze gelijk worden gestuurd. Mocht er dus een grote functie komen waarbij veel tijd in beslag wordt genomen voor de berekening, kan met de cache worden gekeken of dezelfde waarde niet al een keer is gemeten.
-Als er niet gecached wordt, kan het zijn dat de functie er langer over doet dan nodig is als de waarden maar weinig veranderen. Dit zou onnodig tijd opnemen voor tijdens het testen of uitvoeren van de functie.
+### Unit test
+De code voor de unit tests bevat tijdmetingen om de uitvoeringstijd van het systeem te meten. Ook zijn er verschillende controlles op het controlleren of een bepaalde waarde boven of onder de Threshold valt. Dit wordt gedaan om te controlleren of de drempelwaarden correct worden behouden en dat de code binnen een acceptabele tijd wordt uitgevoerd.
 
-### Measurement Converting decorator
-De measurement converting decorator is handig voor als het project ook gebruikt gaat worden door mensen die niet bekend zijn met de gebruikte eenheid of als er voor andere redenen met een andere eenheid moet worden gerekend.
-Mensen uit andere wereld delen hebben mogelijk niet de bevatting van hoeveel graden celsius is in fahrenheit, hierdoor kan het interperteren van de uitkomst lastiger zijn. Ook is het mogelijk dat voor natuurkundige redenen het nodig is om fahrenheit te gebruiken, hiermee kan dit ook worden gedaan.
+De code hiervoor is te vinden in [tests.py](code/tests.py) in de klasse ```UnitTest```.
+
+### Software Integratie test
+De code voor de Software Integratie tests bevat verifiëring voor het systeem om correct te reageren op verschillende sensorwaarden. Na het ontvangen voor de juiste waard de Fan of de Vernevelaar worden ingeschakelt. Dit allemaal moet ook binnen een bepaalde tijd gebeuren aangezien anders het klimaat negatieve impact kan hebben op de omgeving.
+
+De code hiervoor is te vinden in [tests.py](code/tests.py) in de klasse ```IntegrationTest```.
+
+### System test
+De code voor de system tests bevat simulaties van waarden die worden gemeten om te controlleren of het systeem of het systeem correct reageert op verschillende sensor waarden.
+
+De code hiervoor is te vinden in [tests.py](code/tests.py) in de klasse ```SystemTest```.
+
+
+## Simmulatie
+Er is een kleine simmulatie van lichtintensiteit en luchtvochtigheid om te zien dat de actuatoren theoretisch geactiveert worden bij het overschrijden van bepaalde waarden. De waarden worden hierdoor ook aangepast om alleen omhoog of omlaag te gaan.
+Als de actuatoren niet aan staan fluctueren de waarden.
+
+De code hiervoor is te vinden in [sim.py](code/sim.py)
